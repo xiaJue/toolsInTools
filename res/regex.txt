@@ -1,0 +1,10 @@
+#在非java文件中/不需要转义。否则就会产生歧义
+#语法结构为>key>name>message>
+#定义语法的正则表达式 如需在内容中使用预定字符>则需要转义\>
+>REGEX>(?<=\>).*?(?=\>)>//匹配行中的每一个>包裹>的内容>
+#RES为预定义key
+#>RES>FILE>res/test.png>//定义key为FILE的条目显示的图标
+#>RES>ICON>res/mz.png>//窗口图标
+#>RES>KEY>res/zi.png>//定义key为KEY的条目显示的图标
+#>RES>TITLE>%THIS%>//定义key为KEY的条目显示的图标
+#>RES>TITLE>Utils>//定义key为KEY的条目显示的图标
