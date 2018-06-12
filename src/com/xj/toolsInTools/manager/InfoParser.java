@@ -10,7 +10,6 @@ import javax.swing.ImageIcon;
 
 import com.xj.toolsInTools.bean.Info;
 import com.xj.toolsInTools.bean.RegexInfo;
-import com.xj.toolsInTools.bean.TransferenceUtils;
 import com.xj.toolsInTools.bean.WindowInfo;
 import com.xj.toolsInTools.constant.Constants;
 import com.xj.toolsInTools.utils.FileUtils;

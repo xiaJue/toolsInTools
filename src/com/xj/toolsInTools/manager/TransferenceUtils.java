@@ -1,7 +1,9 @@
-package com.xj.toolsInTools.bean;
+package com.xj.toolsInTools.manager;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import com.xj.toolsInTools.bean.RegexInfo;
 
 public class TransferenceUtils {
 	public static String[] Transferences = { "\\>", "{CompilerArrow}",
